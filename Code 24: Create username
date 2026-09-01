@@ -1,0 +1,13 @@
+# WAP to take student name and roll no and 
+# create user name containing first 3 char of name and last 2 digit of roll number
+
+
+name=input("Enter name:")
+roll=input("Enter roll number:")
+Username=""
+for i in range(3):
+    Username=Username+name[i]
+
+Username=Username+roll[-2]+roll[-1]
+   
+print(f"Username {Username}")
