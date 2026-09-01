@@ -1,0 +1,5 @@
+# Wap to take mobile number as input and print last 4 digit and stars in fornt
+phone=input("Enter mobile number:")
+needed=phone[-4:]
+
+print("******"+needed)
