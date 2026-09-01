@@ -1,0 +1,6 @@
+# WAP to take email as input and extract domain name
+
+email=input("Enter e-mail:")
+idx=email.find("@")
+domain=email[idx+1:]
+print(domain)
