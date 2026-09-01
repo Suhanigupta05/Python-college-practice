@@ -1,0 +1,8 @@
+# WAP to check if n email ends with @mietjammu.in or not
+email=input("Enter mail:")
+idx=email.find("@")
+check=email[idx+1:]
+if domain=="mietjammu.in":
+    print("Yes")
+else:
+    print("No")
