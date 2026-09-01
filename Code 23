@@ -1,0 +1,11 @@
+# WAP o take student's full name and display:
+# total no of chars
+# first chr
+# last chr
+# Name in uppercase
+
+name=input("Enter Name:")
+print(len(name))
+print(name[0])
+print(name[-1])
+print(name.upper())
