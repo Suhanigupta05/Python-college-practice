@@ -1,0 +1,3 @@
+x=input("Enter name:")
+idx=x.find(' ')
+print(x[0],x[idx+1])
