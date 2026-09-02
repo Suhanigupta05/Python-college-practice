@@ -1,0 +1,14 @@
+x=input("Enter Word:")
+a,b="",""
+for i in range(len(x)):
+    if i%2==0:
+        a=a+x[i]
+    else:
+       b=b+x[i]
+print(f"Even position char are: {a}\n Odd positioned char are: {b}")
+
+
+
+
+
+
