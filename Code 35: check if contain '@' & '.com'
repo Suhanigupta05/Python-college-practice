@@ -1,0 +1,6 @@
+x=input("Enter Word:")
+if('@' not in x or '.com' not in x):
+    print("no")
+else:
+    print("yes")
+
