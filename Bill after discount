@@ -1,0 +1,15 @@
+# WAP to calculate total amount to pay after discount applied
+
+bill_amount=int(input("Enter total amount:"))
+if bill_amount>5000:
+    discount=bill_amount*(20/100)
+    total=bill_amount-discount
+    print(f"Discounted amount: {discount}\nTotal amount to pay: {total}")
+elif(bill_amount>=3000 and bill_amount<=5000):
+    discount=bill_amount*(10/100)
+    total=bill_amount-discount
+    print(f"Discounted amount: {discount}\nTotal amount to pay: {total}")
+else:
+    discount=0
+    total=bill_amount-discount
+    print(f"Discounted amount: {discount}\nTotal amount to pay: {total}")
