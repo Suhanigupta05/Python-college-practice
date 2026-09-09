@@ -1,0 +1,7 @@
+# WAP to check the comment is a spam comment or not
+
+comment=input("Enter comment:")
+if "make a lot of money" in comment or "buy now" in comment or "subscribe this" in comment or "click this" in comment:
+    print("It's a spam comment")
+else:
+    print("It's not a spam comment")
