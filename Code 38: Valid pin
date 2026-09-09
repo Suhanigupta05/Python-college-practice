@@ -1,0 +1,11 @@
+# WAP to ask user for 8-digit pin. If pin entered has exactly 8-digit and should contain @ give error message and...
+while(1):
+    pin=input("Enter a pin:")
+    if len(pin)<8:
+        print("Enter the pin again:")
+    elif len(pin)>=8 and '@' not in pin:
+        print("Access denied!!!")
+        break
+    else:
+        print("Access Approved!!!")
+        break
