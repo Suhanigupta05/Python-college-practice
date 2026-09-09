@@ -1,0 +1,10 @@
+#WAP ti input students marks valid if marks between 0 and 100
+i=0
+while(i<5):
+    marks=int(input("Enter marks of subject i+1:"))
+    while():
+        if(marks<0 or marks>100):
+            print("Invalid marks")
+        else:
+            break
+    i+=1
