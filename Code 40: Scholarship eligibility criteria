@@ -1,0 +1,11 @@
+# a) the student has a cgpa of 8.5 or above and attendance of 85% or above.
+cgpa=float(input("Enter your CGPA:"))
+attendance=float(input("Enter your attendance:"))
+national_win=int(input("Enter 1 if has won any national award else 0:"))
+if cgpa>=8.5 and attendance>=85:
+    print("Eligible for Scholarship")
+# b) student if won any national award
+elif national_win==1:
+    print("Eligible for Scholarship")
+else:
+    print("Not Eligible for Scholarship")
