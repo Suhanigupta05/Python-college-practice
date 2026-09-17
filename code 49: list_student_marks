@@ -1,0 +1,27 @@
+# WAP to store students marks in a list then find the highest score, average score, lowest score and print no of students that passed the exam 
+
+n=int(input("Enter no of students:"))
+o=int(input("Enter no of subjects:"))
+
+count=0
+
+for i in range(n):
+  listt=[]
+  
+  for j in range(o):
+    marks=int(input("Enter marks:"))
+    listt.append(marks)
+
+  m=max(listt)
+  mm=min(listt)
+  avg=sum(listt)/o
+
+  if(avg>=50):
+    count+=1
+  
+
+  print(f"Maximum marks of Student {i+1}:{m}")
+  print(f"Minimum marks of Student {i+1}:{mm}")
+  print(f"Average marks of Student {i+1}:{avg}")
+
+print(f"Number of student who passed:{count}")
