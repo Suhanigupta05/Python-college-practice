@@ -1,0 +1,19 @@
+# WAP to print the number of times a element has occured
+
+
+
+n=int(input("Enter number of elements to push in a list:"))
+listt=[]
+
+for i in range(n):
+  o=int(input("Enter element:"))
+  listt.append(o)
+
+for i in listt:
+  count=0
+  for j in range(n):
+    if i==listt[j]:
+      count+=1
+
+  print(f"Element {i} has occurred {count} times")
+      
