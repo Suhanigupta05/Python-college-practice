@@ -1,0 +1,19 @@
+# WAP to input a list of number and return a list containing all unique elemnets
+
+
+n=int(input("Enter number of elements to push in a list:"))
+listt=[]
+
+for i in range(n):
+  m=int(input("Enter number: "))
+  listt.append(m)
+
+listt2=[]
+
+for i in listt:
+  if i not in listt2:
+    listt2.append(i)
+
+print(listt2)
+      
+      
