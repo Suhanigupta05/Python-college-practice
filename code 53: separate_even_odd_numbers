@@ -1,0 +1,23 @@
+# WAP to take a list containing both even and odd number. Then create 2 list containing only even and odd number
+
+
+n=int(input("Enter number of elements to push in a list:"))
+listt=[]
+
+for i in range(n):
+  m=int(input("Enter number: "))
+  listt.append(m)
+
+listt2=[]
+listt3=[]
+
+for i in listt:
+  if i%2==0:
+    listt2.append(i)
+  elif i%2==1:
+    listt3.append(i)
+
+print(f"List containing even numbers: {listt2}")
+print(f"List containing odd numbers: {listt3}")
+      
+      
