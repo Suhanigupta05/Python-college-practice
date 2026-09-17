@@ -1,0 +1,23 @@
+# WAP where user can remove,add or view items
+
+
+n=int(input("Enter number of elements to push in a list:"))
+listt=[]
+
+choice=int(input("Enter your choice for adding item choose 1 for removing item choose 2 and for viewing the cart choose 3: "))
+
+if(choice==1):
+  item=input("Enter the item to add: ")
+  listt,append(item)
+  print("Item added successfully!!!")
+elif(choice==2):
+  if len(listt)<=0:
+    print("Cart is empty!!!")
+  else:
+    item=listt.pop()
+    print(f"Item removed successfully: {item")
+elif(choice==3):
+  print(f"Cart displayed: {listt}")
+else:
+  print("Invalid choice")
+      
