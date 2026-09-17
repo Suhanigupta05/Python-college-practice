@@ -1,0 +1,14 @@
+# WAP to rotate the list one position to right
+
+
+n=int(input("Enter number of elements to push in a list:"))
+listt=[]
+
+for i in range(n):
+  m=int(input("Enter number: "))
+  listt.append(m)
+
+res=[listt[-1]]+listt[:-1]
+print(f"List after rotating the org list to one position right: {res}")
+      
+      
