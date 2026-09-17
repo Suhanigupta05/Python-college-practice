@@ -1,0 +1,17 @@
+# WAP to input marks of 10 students. Store only valid marks between 0 and 100 in a list. Skip invalid marks
+
+
+n=int(input("Enter no of students:"))
+o=int(input("Enter no of Subjects:"))
+
+for i in range(n):
+  list=[]
+  for i in range(o):
+    marks=int(input("Enter marks:"))
+    if marks>=0 or marks<=100:
+      list.append(marks)
+    else:
+      continue
+
+      
+      
