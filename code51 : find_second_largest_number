@@ -1,0 +1,25 @@
+# WAP to input numbers in a list and find the second largest number.
+
+
+n=int(input("Enter number of elements to push in a list:"))
+listt=[]
+
+for i in range(n):
+  m=int(input("Enter number"))
+  listt.append(m)
+
+m=0
+mm=0
+for i in listt:
+  if m<i:
+    mm=m
+    m=i
+  elif(i!=m and mm<i):
+    mm=i
+
+print(mm)
+
+
+
+      
+      
