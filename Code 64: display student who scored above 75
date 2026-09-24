@@ -1,0 +1,17 @@
+# Store multiple student records as a list of tuples (name, roll number, marks)
+students = [
+    ("Alice", 101, 85),
+    ("Bob", 102, 68),
+    ("Charlie", 103, 92),
+    ("David", 104, 74),
+    ("Emma", 105, 78)
+]
+
+print("Students who scored above 75:")
+print("-" * 30)
+
+# Iterate through the records and display students scoring above 75
+
+for name, roll_number, marks in students:
+    if marks > 75:
+        print(f"Name: {name} | Roll No: {roll_number} | Marks: {marks}")
