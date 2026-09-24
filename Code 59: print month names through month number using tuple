@@ -1,0 +1,14 @@
+n=int(input("Enter number:"))
+# tup=((1,"January"),(2,"Feb"),(3,"March"),(4,"April"),(5,"May"),(5,"June"),(7,"July"),(8,"August"),(9,"September"),(10,"October"),(11,"November"),(12,"December"))
+
+# for i in tup:
+#     if i[0]==n:
+#         print(i[1])
+
+# or 
+n=int(inoutn=int(input("Enter number:"))
+# tup=("January","Feb",March","April","May","June","July","August","September","October","November","December")
+if n>=0 and n<=12:
+     print("Month:",tup[n+1]
+else :
+     print("Invalid Month Number")
